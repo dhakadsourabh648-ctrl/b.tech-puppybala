@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    background-color: #faf8f5;
+    color: #1e293b;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f0e9;
+}
+::-webkit-scrollbar-thumb {
+  background: #d7c5ad;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b45309;
+}
+
+/* Animations & Glassmorphism helpers */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(229, 231, 235, 0.6);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #b45309 0%, #ea580c 50%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at 10% 20%, rgba(254, 243, 199, 0.7) 0%, rgba(255, 251, 235, 0.4) 50%, rgba(250, 248, 245, 1) 90%);
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(180, 83, 9, 0.12), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* ============================================================
+   CLICK ANIMATIONS & TACTILE MICRO-INTERACTIONS
+   ============================================================ */
+
+/* Expanding Click Ripple Wave */
+@keyframes rippleAnimation {
+  0% {
+    transform: scale(0);
+    opacity: 0.55;
+  }
+  100% {
+    transform: scale(2.8);
+    opacity: 0;
+  }
+}
+
+.click-ripple {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: scale(0);
+  animation: rippleAnimation 550ms cubic-bezier(0.2, 0.8, 0.3, 1) forwards;
+  z-index: 20;
+}
+
+/* Tactile Click Bounce Effect */
+.btn-tactile {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease, filter 0.15s ease;
+  user-select: none;
+}
+.btn-tactile:hover {
+  transform: translateY(-2px);
+}
+.btn-tactile:active {
+  transform: scale(0.93) translateY(1px);
+  transition-duration: 0.08s;
+}
+
+/* Shimmer Light Sweep on Hover */
+.shimmer-sweep {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer-sweep::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -80%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.35),
+    transparent
+  );
+  transform: rotate(25deg);
+  transition: none;
+  pointer-events: none;
+}
+.shimmer-sweep:hover::after {
+  left: 150%;
+  transition: left 0.75s ease-in-out;
+}
+
+/* Nav Link Click Bounce */
+.nav-link-tactile {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.16s cubic-bezier(0.34, 1.56, 0.64, 1), background-color 0.2s ease, color 0.15s ease, box-shadow 0.2s ease;
+  user-select: none;
+}
+.nav-link-tactile:hover {
+  transform: translateY(-1.5px);
+}
+.nav-link-tactile:active {
+  transform: scale(0.92);
+  transition-duration: 0.08s;
+}
+
+/* Icon Playful Pop on Hover/Click */
+@keyframes iconPop {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  40% {
+    transform: scale(1.22) rotate(-8deg);
+  }
+  70% {
+    transform: scale(1.1) rotate(4deg);
+  }
+}
+
+.animate-icon-pop:hover svg,
+.animate-icon-pop:active svg {
+  animation: iconPop 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Glowing illumination borders */
+.glow-emerald {
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.glow-emerald:hover {
+  border-color: #10b981;
+  box-shadow: 0 0 18px -2px rgba(16, 185, 129, 0.35), 0 4px 6px -2px rgba(16, 185, 129, 0.15);
+}
+.glow-emerald:active {
+  transform: scale(0.94);
+  box-shadow: 0 0 10px -1px rgba(16, 185, 129, 0.4);
+}
+
+.glow-amber {
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.glow-amber:hover {
+  box-shadow: 0 0 22px -2px rgba(245, 158, 11, 0.5), 0 8px 16px -4px rgba(217, 119, 6, 0.3);
+}
+.glow-amber:active {
+  transform: scale(0.94);
+  box-shadow: 0 0 12px -1px rgba(245, 158, 11, 0.4);
+}
+

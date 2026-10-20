@@ -1,0 +1,172 @@
+[
+  {
+    "name": "German Shepherd",
+    "breed": "German Shepherd long coat",
+    "age": "45 Days",
+    "gender": "Male",
+    "price": 60000,
+    "availability": "Available",
+    "description": "The Long Coat Solid Black German Shepherd is a stunning, intelligent, loyal, and athletic dog known for its thick black coat, elegant appearance, bushy tail, and strong body structure. It is a color and coat variety of the German Shepherd Dog, not a separate breed. Adult males typically weigh around 30–40 kg and stand 60–65 cm tall, while females generally weigh 22–32 kg and stand 55–60 cm tall. These dogs are highly trainable, confident, alert, and protective, making them excellent family companions and potential working dogs when properly trained. Their long double coat features beautiful feathering around the ears, neck, legs, and tail, giving them a majestic appearance. They require regular brushing, a balanced diet, daily exercise, early socialization, and consistent obedience training. Like other German Shepherds, they can be prone to hip and elbow dysplasia and certain inherited health conditions, so choosing a puppy from health-tested parents is essential. In hot climates such as India, they need access to shade, fresh water, a cool indoor environment, and exercise during cooler hours. With responsible breeding, proper care, and professional training, a Long Coat Solid Black German Shepherd can become a devoted, well-mannered, and impressive lifelong companion.",
+    "images": [
+      "http://localhost:5000/uploads/puppy_1792409172310_WhatsApp_Video_2026-10-17_at_2_58_44_PM.mp4"
+    ],
+    "_id": "mem-1792409307083",
+    "id": "mem-1792409307083",
+    "heroImage": "http://localhost:5000/uploads/puppy_1792409172310_WhatsApp_Video_2026-10-17_at_2_58_44_PM.mp4",
+    "gallery": [
+      "http://localhost:5000/uploads/puppy_1792409172310_WhatsApp_Video_2026-10-17_at_2_58_44_PM.mp4"
+    ],
+    "status": "Available",
+    "createdAt": "2026-10-19T11:28:27.083Z",
+    "updatedAt": "2026-10-19T11:28:27.083Z"
+  },
+  {
+    "name": "French bulldog",
+    "breed": "french bulldog",
+    "age": "25 Days",
+    "gender": "Male",
+    "price": 35000,
+    "availability": "Available",
+    "description": "French Bulldog Personality\nFrench Bulldogs are generally known for being:\n\nAffectionate: They enjoy spending time with their owners.\nPlayful: They often have entertaining, clownish personalities.\nCompanionable: They usually prefer being around people rather than being left alone for long periods.\nAdaptable: Their small size makes them suitable for many homes.\nStubborn: Training may require patience and positive reinforcement.\nAre French Bulldogs aggressive?\nGenerally, they are friendly companion dogs when properly socialized. Individual temperament varies, and early training helps develop good behavior.\n\nAre they good family dogs?\nYes, they can be excellent family companions. Supervise interactions with small children because French Bulldogs can be vulnerable to accidental injuries.\n\n🏡 4. Is a French Bulldog Suitable for Indian Weather?\nThis is one of the most important considerations in India.\n\nFrench Bulldogs have short muzzles, which make it difficult for them to cool themselves efficiently through panting.\n\nIn a hot city such as Bhopal, they can be at significant risk of overheating.\n\nFollow these precautions:\n\nKeep the dog in a cool, well-ventilated or air-conditioned environment during hot weather.\nWalk early in the morning or late in the evening when temperatures are lower.\nAvoid strenuous exercise and hot pavement.\nProvide fresh drinking water and shade.\nNever leave the dog inside a parked car.\nSeek urgent veterinary care if you notice heavy panting, excessive drooling, weakness, or collapse.\nMy advice: If you live in a very hot area and cannot provide reliable indoor cooling, a French Bulldog may not be the best choice.",
+    "images": [
+      "http://localhost:5000/uploads/puppy_1792408963862_WhatsApp_Video_2026-10-17_at_2_59_26_PM.mp4"
+    ],
+    "_id": "mem-1792409071514",
+    "id": "mem-1792409071514",
+    "heroImage": "http://localhost:5000/uploads/puppy_1792408963862_WhatsApp_Video_2026-10-17_at_2_59_26_PM.mp4",
+    "gallery": [
+      "http://localhost:5000/uploads/puppy_1792408963862_WhatsApp_Video_2026-10-17_at_2_59_26_PM.mp4"
+    ],
+    "status": "Available",
+    "createdAt": "2026-10-19T11:24:31.514Z",
+    "updatedAt": "2026-10-19T11:24:31.514Z"
+  },
+  {
+    "name": "Doberman",
+    "breed": "Doberman",
+    "age": "30 Days",
+    "gender": "Female",
+    "price": 35000,
+    "availability": "Available",
+    "description": "Female Doberman Personality\nFemale Dobermans can make wonderful companions.\n\nLoyal: They often form strong bonds with their owners.\nProtective: They are naturally alert and can be excellent watchdogs.\nIntelligent: They learn commands quickly.\nActive: They need daily exercise and mental stimulation.\nAffectionate: Many enjoy spending time close to their families.\nIndependent: Some females may be more independent, but personality varies considerably between individual dogs.",
+    "images": [
+      "http://localhost:5000/uploads/puppy_1792408762010_WhatsApp_Video_2026-10-17_at_3_10_30_PM.mp4"
+    ],
+    "_id": "mem-1792408870512",
+    "id": "mem-1792408870512",
+    "heroImage": "http://localhost:5000/uploads/puppy_1792408762010_WhatsApp_Video_2026-10-17_at_3_10_30_PM.mp4",
+    "gallery": [
+      "http://localhost:5000/uploads/puppy_1792408762010_WhatsApp_Video_2026-10-17_at_3_10_30_PM.mp4"
+    ],
+    "status": "Available",
+    "createdAt": "2026-10-19T11:21:10.512Z",
+    "updatedAt": "2026-10-19T11:21:10.512Z"
+  },
+  {
+    "name": "Pembroke welsh corgi",
+    "breed": "corgi",
+    "age": "35 Days",
+    "gender": "Male",
+    "price": 52000,
+    "availability": "Available",
+    "description": "Meet Our Adorable Corgi Male Puppy! 🐾❤️\nBring home the charm and happiness of a beautiful Corgi male puppy, known for its adorable short legs, expressive eyes, and playful personality. Corgis are intelligent, affectionate, and energetic companions who can bring joy to your family.\n✨ Puppy Details:\n🐕 Breed: Pembroke Welsh Corgi\n♂️ Gender: Male\n💰 Price: ₹55,000\n❤️ Personality: Playful, friendly & intelligent\n🏡 Ideal For: Families and dog lovers\n🎾 Temperament: Active, loving & curious\n🧠 Training: Intelligent and eager to learn\n🐾 Care: Regular exercise, grooming & balanced nutrition\n🌟 Why Choose a Corgi?\nCorgis are loved for their unique appearance, lively nature, and strong bond with their families. Their adorable looks and cheerful personalities make them wonderful companions for people who can provide them with proper care, training, and attention.",
+    "images": [
+      "http://localhost:5000/uploads/puppy_1792326787107_WhatsApp_Image_2026-10-17_at_3_10_32_PM.jpeg",
+      "http://localhost:5000/uploads/puppy_1792326817357_WhatsApp_Image_2026-10-17_at_3_10_32_PM__1_.jpeg"
+    ],
+    "_id": "mem-1792326821047",
+    "id": "mem-1792326821047",
+    "heroImage": "http://localhost:5000/uploads/puppy_1792326787107_WhatsApp_Image_2026-10-17_at_3_10_32_PM.jpeg",
+    "gallery": [
+      "http://localhost:5000/uploads/puppy_1792326787107_WhatsApp_Image_2026-10-17_at_3_10_32_PM.jpeg",
+      "http://localhost:5000/uploads/puppy_1792326817357_WhatsApp_Image_2026-10-17_at_3_10_32_PM__1_.jpeg"
+    ],
+    "status": "Available",
+    "createdAt": "2026-10-18T12:33:41.047Z",
+    "updatedAt": "2026-10-18T12:33:41.047Z"
+  },
+  {
+    "name": "Goldern retriever",
+    "breed": "goldern retriever",
+    "age": "35 Days",
+    "gender": "Male",
+    "price": 35000,
+    "availability": "Available",
+    "description": "Meet Your New Best Friend! 🐾❤️\nBring home a bundle of happiness with this adorable Golden Retriever male puppy! Known for their friendly nature, intelligence, and loving personality, Golden Retrievers make wonderful family companions. With their beautiful golden coat and charming looks, they can quickly become a beloved member of your family. 🧡\n✨ Puppy Details\n🐾 Breed: Golden Retriever\n♂️ Gender: Male\n🎨 Coat Colour: Golden\n💰 Price: ₹35,000\n❤️ Temperament: Friendly, affectionate, and intelligent\n🏡 Ideal For: Families and dog lovers\n🩺 Health & Vaccination: Details available upon enquiry\n❤️ Why Choose a Golden Retriever?\n✔️ Loving and loyal companion\n✔️ Intelligent and trainable\n✔️ Friendly and playful personality\n✔️ Great for families with proper training and care\n🐾 Ready to Welcome Your New Family Member?\nLooking for a loyal companion who will fill your home with happiness? Get in touch to learn more about this adorable Golden Retriever puppy!",
+    "images": [
+      "http://localhost:5000/uploads/puppy_1792326041552_WhatsApp_Video_2026-10-17_at_3_01_58_PM.mp4"
+    ],
+    "_id": "mem-1792326049640",
+    "id": "mem-1792326049640",
+    "heroImage": "http://localhost:5000/uploads/puppy_1792326041552_WhatsApp_Video_2026-10-17_at_3_01_58_PM.mp4",
+    "gallery": [
+      "http://localhost:5000/uploads/puppy_1792326041552_WhatsApp_Video_2026-10-17_at_3_01_58_PM.mp4"
+    ],
+    "status": "Available",
+    "createdAt": "2026-10-18T12:20:49.640Z",
+    "updatedAt": "2026-10-18T12:20:49.640Z"
+  },
+  {
+    "name": "Husky  Blue eyes",
+    "breed": "Husky Blue eyes",
+    "age": "45 Days",
+    "gender": "Male",
+    "price": 60000,
+    "availability": "Available",
+    "description": "The Siberian Husky is a medium-sized working dog breed developed by the Chukchi people of northeastern Siberia for pulling sleds over long distances. Known for its endurance, striking appearance, and friendly temperament, it is now popular worldwide as both a companion and a sporting dog.\n\nKey characteristics\nThe Siberian Husky combines athleticism, intelligence, and sociability. Adults typically weigh between 35 and 60 pounds (16–27 kg) and have a thick double coat that protects them from cold climates. While blue eyes are common, brown eyes or one of each color (heterochromia) are also normal and healthy.\n\nRelated northern breeds\nTemperament and care\nThe breed is generally friendly, outgoing, and pack-oriented, making it a poor choice as a guard dog but an excellent companion for active households. Huskies require substantial daily exercise, mental stimulation, and secure fencing because they are energetic runners and can be skilled escape artists. Their thick coat sheds heavily, especially during seasonal coat changes, so regular brushing is important.\n\nWorking heritage\nOriginally bred for sled pulling, Siberian Huskies excel at activities requiring endurance rather than raw pulling power. Today they continue to participate in sled dog racing, skijoring, bikejoring, canicross, and other canine sports where stamina and teamwork are valued. Their efficient gait allows them to travel long distances while conserving energy.",
+    "images": [
+      "http://localhost:5000/uploads/puppy_1792325844558_WhatsApp_Video_2026-10-17_at_3_02_04_PM.mp4"
+    ],
+    "_id": "mem-1792325846489",
+    "id": "mem-1792325846489",
+    "heroImage": "http://localhost:5000/uploads/puppy_1792325844558_WhatsApp_Video_2026-10-17_at_3_02_04_PM.mp4",
+    "gallery": [
+      "http://localhost:5000/uploads/puppy_1792325844558_WhatsApp_Video_2026-10-17_at_3_02_04_PM.mp4"
+    ],
+    "status": "Available",
+    "createdAt": "2026-10-18T12:17:26.489Z",
+    "updatedAt": "2026-10-18T12:17:26.489Z"
+  },
+  {
+    "name": "Culture pom",
+    "breed": "Culture pom",
+    "age": "30Days",
+    "gender": "Male",
+    "price": 35000,
+    "availability": "Available",
+    "description": "Introducing our adorable 30-day-old Culture Pom puppy, known for its fluffy appearance, cute face, and charming personality. This tiny companion has the potential to become a loving member of your family.\n✨ Puppy Details\n🐾 Breed: Culture Pom (Pomeranian)\n🎂 Age: 30 Days\n💰 Price: ₹32,000\n❤️ Personality: Playful and affectionate\n☁️ Appearance: Cute face and fluffy coat\n🏡 Care: Requires gentle handling, warmth, and age-appropriate nutrition.\n💖 Make This Little One Part of Your Family!\nLooking for an adorable furry companion? Contact us to learn more about this puppy, its health, and its care requirements.",
+    "images": [
+      "http://localhost:5000/uploads/puppy_1792325561831_WhatsApp_Video_2026-10-17_at_3_03_34_PM.mp4"
+    ],
+    "_id": "mem-1792325578792",
+    "id": "mem-1792325578792",
+    "heroImage": "http://localhost:5000/uploads/puppy_1792325561831_WhatsApp_Video_2026-10-17_at_3_03_34_PM.mp4",
+    "gallery": [
+      "http://localhost:5000/uploads/puppy_1792325561831_WhatsApp_Video_2026-10-17_at_3_03_34_PM.mp4"
+    ],
+    "status": "Available",
+    "createdAt": "2026-10-18T12:12:58.792Z",
+    "updatedAt": "2026-10-18T12:12:58.792Z"
+  },
+  {
+    "name": "Culture pom",
+    "breed": "Culture pom",
+    "age": "30 Days",
+    "gender": "Male",
+    "price": 32000,
+    "availability": "Available",
+    "description": "Introducing our adorable 30-day-old Culture Pom puppy, known for its fluffy appearance, cute face, and charming personality. This tiny companion has the potential to become a loving member of your family.\n✨ Puppy Details\n🐾 Breed: Culture Pom (Pomeranian)\n🎂 Age: 30 Days\n💰 Price: ₹32,000\n❤️ Personality: Playful and affectionate\n☁️ Appearance: Cute face and fluffy coat\n🏡 Care: Requires gentle handling, warmth, and age-appropriate nutrition.\n💖 Make This Little One Part of Your Family!",
+    "images": [
+      "http://localhost:5000/uploads/puppy_1792325356576_WhatsApp_Video_2026-10-17_at_2_58_54_PM.mp4"
+    ],
+    "_id": "mem-1792325381898",
+    "id": "mem-1792325381898",
+    "heroImage": "http://localhost:5000/uploads/puppy_1792325356576_WhatsApp_Video_2026-10-17_at_2_58_54_PM.mp4",
+    "gallery": [
+      "http://localhost:5000/uploads/puppy_1792325356576_WhatsApp_Video_2026-10-17_at_2_58_54_PM.mp4"
+    ],
+    "status": "Available",
+    "createdAt": "2026-10-18T12:09:41.898Z",
+    "updatedAt": "2026-10-18T12:10:49.661Z"
+  }
+]
