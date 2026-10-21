@@ -20,6 +20,16 @@ export const protect = async (req, res, next) => {
 
   try {
     const decoded = jwt.verify(token, config.jwtSecret);
+    if (isDBConnected() && decoded.sessionId) {
+  const sessionAdmin = await Admin.findById(decoded.id).select('activeSessionId');
+
+  if (!sessionAdmin || sessionAdmin.activeSessionId !== decoded.sessionId) {
+    return res.status(401).json({
+      success: false,
+      message: 'Admin session is no longer active. Please login again.',
+    });
+  }
+}
     let admin = null;
 
     if (isDBConnected()) {

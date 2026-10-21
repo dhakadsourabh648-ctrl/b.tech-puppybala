@@ -2,12 +2,14 @@ import React, { createContext, useContext, useState, useEffect, useCallback } fr
 import { Navigate, useLocation } from 'react-router-dom';
 import {
   adminLogin as apiAdminLogin,
+  adminLogout,
   getAdminProfile,
   getAdminToken,
   getStoredAdmin,
   clearAdminAuth,
   setAdminAuth,
 } from '../services/adminApi';
+
 
 const AdminAuthContext = createContext(null);
 
@@ -76,12 +78,17 @@ export function AdminAuthProvider({ children }) {
     }
   }, []);
 
-  const logout = useCallback(() => {
+ const logout = useCallback(async () => {
+  try {
+    await adminLogout();
+  } catch (error) {
+    console.warn('[AdminAuth] Logout request failed:', error.message);
+  } finally {
     clearAdminAuth();
     setToken(null);
     setAdmin(null);
-  }, []);
-
+  }
+}, []);
   const value = {
     admin,
     token,

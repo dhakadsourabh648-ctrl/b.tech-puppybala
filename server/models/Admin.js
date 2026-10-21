@@ -34,6 +34,11 @@ const adminSchema = new mongoose.Schema(
     lastLogin: {
       type: Date,
     },
+    activeSessionId: {
+  type: String,
+  default: null,
+  
+},
   },
   {
     timestamps: true,
@@ -58,3 +63,4 @@ adminSchema.methods.comparePassword = async function (candidatePassword) {
 };
 
 export const Admin = mongoose.model('Admin', adminSchema);
+

@@ -1,4 +1,8 @@
-import { authenticateAdmin, getDashboardStats } from '../services/adminService.js';
+import {
+  authenticateAdmin,
+  getDashboardStats,
+  logoutAdmin,
+} from '../services/adminService.js';
 import { getDBStatus } from '../config/db.js';
 
 // @desc    Admin Login
@@ -55,6 +59,18 @@ export const getDashboardStatsHandler = async (req, res, next) => {
       success: true,
       data: stats,
       database: getDBStatus(),
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+export const logoutAdminHandler = async (req, res, next) => {
+  try {
+    await logoutAdmin(req.admin._id);
+
+    res.status(200).json({
+      success: true,
+      message: 'Admin logged out successfully',
     });
   } catch (error) {
     next(error);

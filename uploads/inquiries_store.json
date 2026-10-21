@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "customerName": "rajput",
+    "phone": "8305829618",
+    "city": "Other MP City",
+    "puppyId": "mem-1792325846489",
+    "puppyName": "Husky  Blue eyes",
+    "breed": "Husky Blue eyes",
+    "message": "i want this need puppy",
+    "status": "Closed",
+    "whatsappStatus": "Sent",
+    "whatsappMessageId": "mock_wamid_1792537906753_8zc8g0u",
+    "whatsappSentAt": "2026-10-20T23:11:46.753Z",
+    "whatsappError": null,
+    "_id": "inq-1792537906747",
+    "id": "inq-1792537906747",
+    "inquiryRef": "BPB-EEB09",
+    "createdAt": "2026-10-20T23:11:46.747Z",
+    "updatedAt": "2026-10-21T16:12:01.088Z"
+  }
+]

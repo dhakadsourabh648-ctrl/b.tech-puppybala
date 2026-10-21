@@ -1,17 +1,23 @@
 import jwt from 'jsonwebtoken';
+import crypto from 'crypto';
 import { Admin } from '../models/Admin.js';
 import { config } from '../config/env.js';
 import { isDBConnected } from '../config/db.js';
 import { DEMO_ADMIN } from '../seeds/seedData.js';
 
-export const generateToken = (adminId) => {
-  return jwt.sign({ id: adminId }, config.jwtSecret, {
-    expiresIn: config.jwtExpiresIn,
-  });
+export const generateToken = (adminId, sessionId) => {
+  return jwt.sign(
+    { id: adminId, sessionId },
+    config.jwtSecret,
+    {
+      expiresIn: config.jwtExpiresIn,
+    }
+  );
 };
 
 export const authenticateAdmin = async (email, password) => {
   const cleanEmail = String(email || '').trim().toLowerCase();
+  const sessionId = crypto.randomUUID();
   const targetEmail = 'dhakadsourabh648@gmail.com';
   const isPasswordValid = password === 'MAhadev@123' || password === 'Mahadev@123';
 
@@ -20,10 +26,15 @@ export const authenticateAdmin = async (email, password) => {
     if (admin) {
       const isMatch = await admin.comparePassword(password);
       if (isMatch) {
-        admin.lastLogin = new Date();
-        await admin.save();
+  if (admin.activeSessionId) {
+    return null;
+  }
 
-        const token = generateToken(admin._id);
+  admin.lastLogin = new Date();
+  admin.activeSessionId = sessionId;
+  await admin.save();
+
+  const token = generateToken(admin._id, sessionId);
         return {
           admin: {
             id: admin._id,
@@ -57,6 +68,7 @@ export const authenticateAdmin = async (email, password) => {
 };
 
 export const getDashboardStats = async () => {
+  
   const { getAllPuppies } = await import('./puppyService.js');
   const { getAllInquiries } = await import('./inquiryService.js');
 
@@ -91,4 +103,13 @@ export const getDashboardStats = async () => {
     closedEnquiries,
     recentEnquiries,
   };
+};
+export const logoutAdmin = async (adminId) => {
+  if (!isDBConnected()) {
+    return;
+  }
+
+  await Admin.findByIdAndUpdate(adminId, {
+    activeSessionId: null,
+  });
 };

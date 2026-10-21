@@ -107,6 +107,23 @@ export async function getAdminProfile() {
 
   return json.data;
 }
+/**
+ * Logout Admin
+ */
+export async function adminLogout() {
+  const response = await fetch(`${API_BASE_URL}/admin/logout`, {
+    method: 'POST',
+    headers: authHeaders(),
+  });
+
+  const json = await response.json();
+
+  if (!response.ok) {
+    throw new Error(json.message || 'Logout failed');
+  }
+
+  return json;
+}
 
 /**
  * Fetch Admin Dashboard Metrics & Recent Inquiries
